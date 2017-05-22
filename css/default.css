@@ -22,17 +22,17 @@
     background-color: bisque;
     width:  calc(100% - 200%);
     min-width:  500px;
-    flort:  left;
+    float:  left;
   }
   #main1{
     background-color: lightyellow;
     width:  500px;
-    flort:  left;
+    float:  left;
   }
   #main2{
   background-color: collapse;
   width:  500px;
-  flort:  right;
+  float:  right;
   }
   .box{
     background-color: aliceblue;
