@@ -19,20 +19,20 @@
     z-index: +1
   }
   #main{
-    background-color: bisque;
-    width:  calc(100% - 200%);
+    background-color: wheet;
+    width:  calc(100% - 200px);
     min-width:  500px;
     float:  left;
   }
   #main1{
-    background-color: lightyellow;
+    background-color: khaki;
     width:  500px;
     float:  left;
   }
   #main2{
   background-color: collapse;
   width:  500px;
-  float:  right;
+  float:  left;
   }
   .box{
     background-color: aliceblue;
@@ -59,4 +59,5 @@
   }
   footer{
     background-color: lightsteelblue;
+    clear: both;
   }
