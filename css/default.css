@@ -1,0 +1,61 @@
+  @charset  "utf-8";
+  
+  {
+    margin:0;
+    padding:0;
+  }
+  
+  body{
+    background-color: skyblue;
+    margin:  48px 0 0 0;
+  }
+  header{
+    background-color: lightgreen;
+    position: fixed;
+    left: 0;
+    top:  0;
+    width:  100%
+    z-index: +1
+  }
+  #main{
+    background-color: bisque;
+    width:  calc(100% - 200%);
+    min-width:  500px;
+    flort:  left;
+  }
+  #main1{
+    background-color: lightyellow;
+    width:  500px;
+    flort:  left;
+  }
+  #main2{
+  background-color: collapse;
+  width:  500px;
+  flort:  right;
+  }
+  .box{
+    background-color: aliceblue;
+    color: cadetblue;
+    width: 240px;
+    height: 80px;
+    margin: 5px;
+    float:  left;
+    overflow: auto;
+  }
+  aside{
+    background-color: lightcoral;
+    width:  200px;
+    float:  right;
+    position: relative;
+    top:  20px;
+    right 10px;
+  }
+  #gear_mark{
+  width:  24px;
+  position: absolute;
+  left: 50px;
+  top;  50px;
+  }
+  footer{
+    background-color: lightsteelblue;
+  }
